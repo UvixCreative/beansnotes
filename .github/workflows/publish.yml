@@ -19,11 +19,11 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       - uses: actions/checkout@v3
-      - name: Logseq Publish :triangular_flag_on_post:
+      - name: Logseq Publish
         uses: logseq/publish-spa@v0.3.0
       - name: add a nojekyll file # to make sure asset paths are correctly identified
         run: touch $GITHUB_WORKSPACE/www/.nojekyll
-      - name: Deploy :rocket:
+      - name: Deploy
         uses: JamesIves/github-pages-deploy-action@4.1.9
         with:
           branch: gh-pages # The branch the action should deploy to.
