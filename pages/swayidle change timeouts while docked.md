@@ -1,3 +1,0 @@
-- #issue #beanmachine #NixOS
-- # Problem
-	-

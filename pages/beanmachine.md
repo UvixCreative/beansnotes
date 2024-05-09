@@ -7,4 +7,6 @@
 	- Memory: 32 GB Crucial DDR5-5600
 	- Storage: 2TB WD Black SN770
 - # Current issues
-- {{query (and #beanmachine #issue)}}
+- {{query (and (page-tags beanmachine) (page-tags issue))}}
+  query-table:: false
+  query-properties:: [:page :status :solved :created-at :updated-at :tags]
