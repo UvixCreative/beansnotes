@@ -24,5 +24,4 @@
 	- In case you're still new to NixOS, this is not a minimum viable configuration. Your modules for your system should also include your configuration.nix and possibly some other things like [[home-manager]]
 - # See also
 	- [This commit](https://github.com/UvixCreative/beanlaptop/commit/0ab5c00ba2dd0c32698c581a29ca7f534faecf51#diff-206b9ce276ab5971a2489d75eb1b12999d4bf3843b7988cbe8d687cfde61dea0) where I added nixos-hardware to my own NixOS configuration. And also changed some other things because I'm bad at Git.
-- test
 -
